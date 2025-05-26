@@ -687,6 +687,7 @@ static const struct usb_device_id quirks_table[] = {
 
 	/* Additional Realtek 8723AE Bluetooth devices */
 	{ USB_DEVICE(0x0930, 0x021d), .driver_info = BTUSB_REALTEK },
+	{ USB_DEVICE(0x0930, 0x0222), .driver_info = BTUSB_REALTEK },
 	{ USB_DEVICE(0x13d3, 0x3394), .driver_info = BTUSB_REALTEK },
 
 	/* Additional Realtek 8723BE Bluetooth devices */
